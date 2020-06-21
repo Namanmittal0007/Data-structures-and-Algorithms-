@@ -11,13 +11,13 @@ void spiral(int a[][100],int m,int n){
             cout<<a[i][ec]<<" ";
         }
         ec--;
-        if(sr<er){
+        if(sr<=er){
         for(int i=ec;i>=sc;i--){
             cout<<a[er][i]<<" ";
         }
         }
         er--;
-        if(sc<ec){
+        if(sc<=ec){
         for(int i=er;i>=sr;i--){
             cout<<a[i][sc]<<" ";
         }
